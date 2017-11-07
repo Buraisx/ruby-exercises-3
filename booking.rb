@@ -45,7 +45,6 @@ class Book
 	def current_due_date
 		today = Time.now
 		@due_date = today + 604800
-		# puts @due_date
 		return @due_date
 	end
 
